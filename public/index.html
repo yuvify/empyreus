@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empyreus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>empyreus</h1>
+    <div class="button-container">
+        <button onclick="clickHandler('https://inf.stonklat.com')">infared proxy</button>
+        <button onclick="clickHandler('https://yt.stonklat.com/')">yt</button>
+        <button onclick="clickHandler('https://freedombrowser.stonklat.com/')">freedom browser</button>
+        <button onclick="clickHandler('https://yorasports.com')">yora sports</button>
+    </div>
+
+    <script>
+        function clickHandler(url) {
+            var win = window.open();
+            var iframe = win.document.createElement('iframe');
+            iframe.style = "position:fixed; width:100vw; height:100vh; top:0px; left:0px; right:0px; bottom:0px; z-index:2147483647; background-color:white; border:none;";
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+    </script>
+</body>
+
+</html>
