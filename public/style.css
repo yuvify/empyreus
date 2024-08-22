@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background: linear-gradient(to bottom, #000000, #003366);
+    background: linear-gradient(to bottom, #000000, #330000);
     margin: 0;
     height: 100vh;
     display: flex;
@@ -39,7 +39,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background: rgba(241, 241, 241, 0.3);
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
