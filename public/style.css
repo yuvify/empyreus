@@ -39,10 +39,12 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px;
-    background-color: #f1f1f1; /* Adjust color as needed */
+    background-color: rgba(241, 241, 241, 0.8); /* Adjust transparency here */
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
-    color: #333; /* Adjust text color as needed */
+    color: #fff; /* White text */
+    backdrop-filter: blur(10px); /* Adjust blur intensity here */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
 button:hover {
